@@ -1,1 +1,2 @@
-Y29uc3QgbmV4dENvbmZpZyA9IHsgb3V0cHV0OiAiZXhwb3J0IiwgcG93ZXJlZEJ5SGVhZGVyOiBmYWxzZSwgcmVhY3RTdHJpY3RNb2RlOiB0cnVlIH07CmV4cG9ydCBkZWZhdWx0IG5leHRDb25maWc7Cg==
+const nextConfig = { output: "export", poweredByHeader: false, reactStrictMode: true };
+export default nextConfig;
