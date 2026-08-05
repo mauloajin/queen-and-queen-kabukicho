@@ -1,1 +1,1 @@
-ZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gc2l0ZW1hcCgpe3JldHVybiBbe3VybDoiaHR0cHM6Ly9xdWVlbi1hbmQtcXVlZW4ta2FidWtpY2hvLnZlcmNlbC5hcHAiLGxhc3RNb2RpZmllZDpuZXcgRGF0ZSgpLGNoYW5nZUZyZXF1ZW5jeToid2Vla2x5Iixwcmlvcml0eToxfV19Cg==
+export default function sitemap(){return [{url:"https://queen-and-queen-kabukicho.vercel.app",lastModified:new Date(),changeFrequency:"weekly",priority:1}]}
