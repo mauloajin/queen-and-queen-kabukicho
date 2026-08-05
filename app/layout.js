@@ -1,1 +1,12 @@
-aW1wb3J0ICIuL2dsb2JhbHMuY3NzIjsKCmNvbnN0IHVybCA9ICJodHRwczovL3F1ZWVuLWFuZC1xdWVlbi1rYWJ1a2ljaG8udmVyY2VsLmFwcCI7CmV4cG9ydCBjb25zdCBtZXRhZGF0YSA9IHsKICBtZXRhZGF0YUJhc2U6IG5ldyBVUkwodXJsKSwKICB0aXRsZTogIlF1ZWVuIGFuZCBRdWVlbiBLQUJVS0lDSE/vvZzmlrDlrr/mrYzoiJ7kvI7nlLog44OL44Ol44O844OP44O844OV44Op44Km44Oz44K4IiwKICBkZXNjcmlwdGlvbjogIuaWsOWuv+ODu+atjOiInuS8jueUuuOBrkxBRFlCT1kgTE9VTkdF44CBUXVlZW4gYW5kIFF1ZWVuIEtBQlVLSUNIT+OAguS9j+aJgOOAgeWWtualreaZgumWk+OAgeOCouOCr+OCu+OCueOAgUdvb2dsZeODnuODg+ODl+OCkuOBlOahiOWGheOBl+OBvuOBmeOAgiIsCiAgYWx0ZXJuYXRlczogeyBjYW5vbmljYWw6IHVybCB9LAogIHJvYm90czogeyBpbmRleDogdHJ1ZSwgZm9sbG93OiB0cnVlIH0sCiAgb3BlbkdyYXBoOiB7IHRpdGxlOiAiUXVlZW4gYW5kIFF1ZWVuIEtBQlVLSUNITyIsIGRlc2NyaXB0aW9uOiAi5paw5a6/5q2M6Iie5LyO55S644Gu44OL44Ol44O844OP44O844OV44Op44Km44Oz44K444CC5bqX6IiX5oOF5aCx44Go44Ki44Kv44K744K544KS44GU5qGI5YaF44GX44G+44GZ44CCIiwgdXJsLCBzaXRlTmFtZTogIlF1ZWVuIGFuZCBRdWVlbiBLQUJVS0lDSE8iLCBsb2NhbGU6ICJqYV9KUCIsIHR5cGU6ICJ3ZWJzaXRlIiB9Cn07CmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFJvb3RMYXlvdXQoe2NoaWxkcmVufSkgeyByZXR1cm4gPGh0bWwgbGFuZz0iamEiPjxib2R5PntjaGlsZHJlbn08L2JvZHk+PC9odG1sPjsgfQo=
+import "./globals.css";
+
+const url = "https://queen-and-queen-kabukicho.vercel.app";
+export const metadata = {
+  metadataBase: new URL(url),
+  title: "Queen and Queen KABUKICHO｜新宿歌舞伎町 ニューハーフラウンジ",
+  description: "新宿・歌舞伎町のLADYBOY LOUNGE、Queen and Queen KABUKICHO。住所、営業時間、アクセス、Googleマップをご案内します。",
+  alternates: { canonical: url },
+  robots: { index: true, follow: true },
+  openGraph: { title: "Queen and Queen KABUKICHO", description: "新宿歌舞伎町のニューハーフラウンジ。店舗情報とアクセスをご案内します。", url, siteName: "Queen and Queen KABUKICHO", locale: "ja_JP", type: "website" }
+};
+export default function RootLayout({children}) { return <html lang="ja"><body>{children}</body></html>; }
